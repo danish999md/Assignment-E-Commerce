@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.11.3/font/bootstrap-icons.min.css">
+</head>
+
+<body>
+    <!-- Modals Start -->
+
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <div class="row d-flex justify-content-center">
+                        <div class="col-md-12 col-sm-12 text-center" style="max-width: 180px;">
+                            <img src="https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_.jpg"
+                                class="img-fluid p-3 rounded-start" alt="...">
+                        </div>
+                    </div>
+                    <div class="row d-flex">
+                        <div class="col-3">Description:</div>
+                        <div class="col-9">Slim-fitting style, contrast raglan long sleeve, three-button
+                            henley
+                            placket, light weight & soft fabric for breathable and comfortable wearing. And Solid
+                            stitched shirts with round neck made for durability and a great fit for casual fashion wear
+                            and diehard baseball fans. The Henley style round neckline includes a three-button placket.
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer justify-content-center">
+                    <button type="button" class="btn btn-danger"><i class="bi bi-cart"></i> Add to Cart</button>
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modals End -->
+    <h1 class="bg-info p-2 text-center">Shopping</h1>
+
+    <div class="row d-flex justify-content-center">
+        <!-- Product Card 1 -->
+        <div class="col-lg-4 col-md-7 col-sm-12 cursor-pointer">
+            <div class="card mb-4 border-radius-2 " style="max-width: 540px;">
+                <div class="row">
+                    <div class="col-4">
+                        <img src="https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_.jpg"
+                            class="img-fluid p-3 rounded-start" alt="...">
+                    </div>
+                    <div class="col-8">
+                        <div class="card-body">
+                            <a class="card-title fw-bold pe-auto" data-bs-toggle="modal" data-bs-target="#exampleModal"
+                                style="cursor: pointer;">Fjallraven -
+                                Foldsack No. 1 Backpack, Fits 15 Laptops</a>
+                            <p class="text-warning"><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                                    class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                                    class="bi bi-star"></i>
+                            </p>
+                            <p class="fw-bold">Rs. 109.95</p>
+                            <p class="card-text"><small class="text-body-secondary">Category: men's clothing
+                                </small></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Product Card 2 -->
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>
